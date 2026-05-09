@@ -4667,12 +4667,12 @@ const drop= getChecked("drop");
 const filtered = stages.filter(stage => {
     const matchSide =
     side.length === 0 || side.includes(stage.side);
-    const matchelement =
+    const matchElement =
     element.length === 0 || element.includes(stage.element);
-    const matchpiece =
-    piece.length === 0 || piece.every(e=> stage.piece.includes(e));
-    const matchdrop =
-    drop.length === 0 || drop.every(e=> stage.drop.includes(e));
+    const matchPiece =
+    piece.length === 0 || (stage.piece && Array.isArray(stage.piece) && piece.every(e => stage.piece.includes(e)));
+    const matchDrop =
+    drop.length === 0 || (stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
 
 
 
