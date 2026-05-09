@@ -4670,11 +4670,15 @@ const filtered = stages.filter(stage => {
     const matchElement =
     element.length === 0 || element.includes(stage.element);
     const matchPiece =
-    piece.length === 0 || (stage.piece && piece.every(e => {
-        return Array.isArray(stage.piece) 
-            ? stage.piece.includes(e) 
-            : stage.piece.indexOf(e) !== -1;
-    }));
+    piece.length === 0 || (
+        stage.piece && // stage.piece が存在するか？
+        piece.every(e => {
+            if (!stage.piece) return false; 
+            return Array.isArray(stage.piece) 
+                ? stage.piece.includes(e) 
+                : stage.piece.indexOf(e) !== -1;
+        })
+    );
     const matchDrop =
     drop.length === 0 || (stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
 
