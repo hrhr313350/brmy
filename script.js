@@ -4667,11 +4667,11 @@ const drop= getChecked("drop");
 const filtered = stages.filter(stage => {
     const matchSide =
     side.length === 0 || side.includes(stage.side);
-    const matchElement =
+    const matchelement =
     element.length === 0 || element.includes(stage.element);
-    const matchPiece =
+    const matchpiece =
     piece.length === 0 || piece.every(e=> stage.piece.includes(e));
-    const matchDrop =
+    const matchdrop =
     drop.length === 0 || drop.every(e=> stage.drop.includes(e));
 
 
