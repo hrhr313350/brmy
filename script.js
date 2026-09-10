@@ -178,7 +178,7 @@ const stages = [
 {
     chara: "皇坂逢", color:"heika",
     side:"A",
-    song:"New Phasee",
+    song:"New Phase",
     element: "SUN",
     piece: ["赤","水","緑"],
     gimmick:["なし"],
@@ -189,7 +189,7 @@ const stages = [
 {
     chara: "皇坂逢", color:"heika",
     side:"B",
-    song:"New Phasee",
+    song:"New Phase",
     element: "SUN",
     piece: ["赤","桃","水","緑"],
     gimmick:["SPピース","重力","バーなし"],
@@ -266,7 +266,7 @@ const stages = [
 {
     chara: "皇坂逢", color:"heika",
     side:"A",
-    song:"Belive in yourself",
+    song:"Believe in yourself",
     element: "ALL",
     piece: ["赤","水","緑"],
     gimmick:["なし"],
@@ -631,7 +631,7 @@ const stages = [
 {
     chara: "須王芦佳", color:"rksn",
     side:"A",
-    song:"Roling Star",
+    song:"Rolling Star",
     element: "ALL",
     piece: ["赤","青","黄"],
     gimmick:["なし"],
@@ -763,7 +763,7 @@ const stages = [
 {
     chara: "須王芦佳", color:"rksn",
     side:"A",
-    song:"New Phasee",
+    song:"New Phase",
     element: "STAR",
     piece: ["赤","青","黄"],
     gimmick:["重力"],
@@ -774,7 +774,7 @@ const stages = [
 {
     chara: "須王芦佳", color:"rksn",
     side:"B",
-    song:"New Phasee",
+    song:"New Phase",
     element: "STAR",
     piece: ["赤","水","青","黄","緑"],
     gimmick:["なし"],
@@ -1263,7 +1263,7 @@ const stages = [
     side:"A",
     song:"Code:06-Screen-",
     element: "ALL",
-    piece: ["桃","水",],
+    piece: ["桃","水"],
     gimmick:["なし"],
     mission:["スイッチ8個"],
     missiontype:["スイッチ"],
@@ -2348,7 +2348,7 @@ const stages = [
     chara: "槻本大河",
     color:" otk",
     side:"A",
-    song:"Camaradetie",
+    song:"Camaraderie",
     element: "STAR",
     piece: ["桃","水","黄"],
     gimmick:["なし"],
@@ -2360,7 +2360,7 @@ const stages = [
     chara: "槻本大河",
     color:" otk",
     side:"B",
-    song:"Camaradetie",
+    song:"Camaraderie",
     element: "STAR",
     piece: ["水","黄"],
     gimmick:["なし"],
@@ -2592,9 +2592,6 @@ const stages = [
     song:"Beggar Belief",
     element: "STAR",
     piece: ["赤","水","黄"],
-    gimmick:["なし"],
-    mission:["なし"],
-    missiontype:["なし"],
     gimmick:["なし"],
     mission:["なし"],
     missiontype:["なし"],
@@ -6350,7 +6347,7 @@ function updateFilter() {
     const element = getChecked("element");
     const piece = getChecked("piece");
     const gimmick=getChecked("gimmick");
-    const missiontype=getChecked("missiontype")
+    const missiontype=getChecked("missiontype");
     const drop = getChecked("drop");
     const searchSongInput = document.getElementById("search-song");
     const searchSongValue = searchSongInput ? searchSongInput.value.toLowerCase() : "";
