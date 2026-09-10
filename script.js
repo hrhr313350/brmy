@@ -6363,7 +6363,7 @@ function updateFilter() {
         element.length === 0 || element.includes(stage.element);
         const matchPiece =
         piece.length === 0 || (
-            stage.piece && // stage.piece が存在するか？
+            stage.piece && 
             piece.every(e => {
                 if (!stage.piece) return false; 
                 return Array.isArray(stage.piece) 
@@ -6383,14 +6383,17 @@ function updateFilter() {
         );
         const matchMission =
         missiontype.length === 0 || (
-            stage.missiontype && (
-                Array.isArray(stage.missiontype)
-                    ? missiontype.some(e => stage.missiontype.includes(e))
-                    : missiontype.includes(stage.missiontype)
-            )
+            stage.missiontype &&
+            missiontype.every(e => {
+                if (!stage.missiontype) return false;
+                return Array.isArray(stage.missiontype)
+                    ? stage.missiontype.includes(e)
+                    : stage.missiontype.indexOf(e) !== -1;
+            })
         );
         const matchDrop =
-        drop.length === 0 || (stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
+        drop.length === 0 || (
+            stage.drop && Array.isArray(stage.drop) && drop.every(e => stage.drop.includes(e)));
         const matchSong = !searchSongValue || (stage.song && stage.song.toLowerCase().startsWith(searchSongValue));
         return matchSide && matchElement && matchPiece && matchDrop && matchGimmick && matchMission && matchSong;
     });
