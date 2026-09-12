@@ -6414,7 +6414,7 @@ function render(data) {
         <td>${stage.element}</td>
         <td>${Array.isArray(stage.piece) ? stage.piece.join(', ') : stage.piece}</td>
         <td>${Array.isArray(stage.gimmick) ? stage.gimmick.join(', ') : (stage.gimmick || '')}</td>
-        <td>${Array.isArray(stage.missiontype) ? stage.missiontype.join(', ') : stage.missiontype}</td>
+        <td>${Array.isArray(stage.mission) ? stage.mission.join(', ') : stage.mission}</td>
         <td>${Array.isArray(stage.drop) ? stage.drop.join(', ') : stage.drop}</td>
         </tr>
     `).join("");
