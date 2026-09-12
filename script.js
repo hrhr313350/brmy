@@ -6347,7 +6347,7 @@ function updateFilter() {
     const element = getChecked("element");
     const piece = getChecked("piece");
     const gimmick=getChecked("gimmick");
-    const missiontype=getChecked("missiontype");
+    const mission=getChecked("mission");
     const drop = getChecked("drop");
     const searchSongInput = document.getElementById("search-song");
     const searchSongValue = searchSongInput ? searchSongInput.value.toLowerCase() : "";
