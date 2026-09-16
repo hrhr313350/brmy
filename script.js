@@ -4341,7 +4341,6 @@ const stages = [
     missiontype:["ガラス"],
     drop: ["カクテル","ネクタイピン"]
 },
-
 {
     chara: "相沢篠信",
     color:"snb",
@@ -6745,7 +6744,7 @@ const stages = [
     piece: ["赤","桃","水","青","黄","緑"],
     gimmick:["なし"],
     mission:["ドーナツ7個"],
-    missiontype:["紫陽花"],
+    missiontype:["ドーナツ"],
     drop: ["カクテル","箸置き（巳）"]
 },
 

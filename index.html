@@ -18,7 +18,11 @@
         <div class="info">個人経営のブレマイことブレイクマイケースのまとめになります<br>
         主のスキルアップ目的とブレマイを盛り上げたいの心で運営しています。<br>
         UI変更の要望や感想は <a href="https://odaibako.net/u/hrhr_313350">こちら</a>へ <br>
-        ドロップアイテム検索は枠をとるので一回タップしていただく手間があります</div>
+        ドロップアイテム検索は枠をとるので一回タップしていただく手間があります
+        ミッションが枠の幅の問題で一部省略しているものもあります。
+        コンボピースはコンボピースx-y-zで1コンボピースx個、2コンボピースy個、3コンボピースz個です
+        複数色系のx-y-zについても赤系x個、青系y個、緑系z個になります
+    </div>
 <div>
     <h3>曲名</h3>
     <input type="text" id="search-song" placeholder="曲名で検索...">
@@ -47,29 +51,60 @@
 <td><label><input type="checkbox" value="バーなし" class="gimmick"> シークバーなし</label></td>
 <td><label><input type="checkbox" value="SPピース" class="gimmick">スペシャルピース</label></td>
 <td><label><input type="checkbox" value="重力" class="gimmick">重力</label></td>
-    </tr>
+<td><label><input type="checkbox" value="手数制限" class="gimmick">手数制限</label></td>
+</tr>
 </table>
 <h3>ミッション</h3>
 <table class="drop_table">
     <tr>
 <td><label><input type="checkbox" value="なし" class="missiontype"> なし</label></td>
 <td><label><input type="checkbox" value="ピース消去" class="missiontype"> ピース消去</label></td>
+<td><label><input type="checkbox" value="SPピース消去" class="missiontype">SPピース消去</label></td>
 <td><label><input type="checkbox" value="ガラス" class="missiontype"> ガラス</label></td>
+<td><label><input type="checkbox" value="色ガラス" class="missiontype"> 色ガラス</label></td>
 <td><label><input type="checkbox" value="ベニヤ板" class="missiontype">ベニヤ板</label></td>
+<td><label><input type="checkbox" value="石板" class="missiontype"> 石板</label></td>
+    </tr>
+    <tr>
+<td><label><input type="checkbox" value="ブロック" class="missiontype">ブロック</label></td>
 <td><label><input type="checkbox" value="蝶" class="missiontype">蝶</label></td>
-<td><label><input type="checkbox" value="ベル" class="missiontype">ベル</label></td></tr>
-<tr>
-<td><label><input type="checkbox" value="バラ" class="missiontype">"バラ"</label></td>
+<td><label><input type="checkbox" value="スイッチ" class="missiontype">スイッチ</label></td>
+<td><label><input type="checkbox" value="ベル" class="missiontype">ベル</label></td>
+<td><label><input type="checkbox" value="コンボピース" class="missiontype">コンボピース</label></td>
+<td><label><input type="checkbox" value="バラ" class="missiontype">バラ</label></td>
 <td><label><input type="checkbox" value="花火" class="missiontype">花火</label></td>
-<td><label><input type="checkbox" value="サンタ" class="missiontype">サンタ</label></td>
-<td><label><input type="checkbox" value="ビリヤード" class="missiontype">ビリヤード</label></td>
+    </tr>
+    <tr>
+<td><label><input type="checkbox" value="桜" class="missiontype">桜</label></td>
+<td><label><input type="checkbox" value="水" class="missiontype">水</label></td>
+<td><label><input type="checkbox" value="ほうき" class="missiontype">ほうき</label></td>
+<td><label><input type="checkbox" value="ドーナツ" class="missiontype">ドーナツ</label></td>
 <td><label><input type="checkbox" value="もやもや" class="missiontype">もやもや</label></td>
-<td><label><input type="checkbox" value="ドーナツ" class="missiontype"> ドーナツ</label></td>
-</tr>
-<tr>
-<td><label><input type="checkbox" value="石板">石板</label></td>
-<td><label><input type="checkbox" value="スイッチ">スイッチ</label></td>
-</tr>
+<td><label><input type="checkbox" value="藪" class="missiontype">藪</label></td>2024-11-15
+<td><label><input type="checkbox" value="サンタ" class="missiontype">サンタ</label></td>
+    </tr>
+    <tr>
+<td><label><input type="checkbox" value="お札" class="missiontype">お札</label></td>
+<td><label><input type="checkbox" value="ビリヤード" class="missiontype">ビリヤード</label></td>
+<td><label><input type="checkbox" value="ビーチボール" class="missiontype">ビーチボール</label></td>
+<td><label><input type="checkbox" value="鍵" class="missiontype">鍵</label></td>
+<td><label><input type="checkbox" value="あるこ" class="missiontype">あるこ</label></td>
+<td><label><input type="checkbox" value="時限爆弾" class="missiontype">時限爆弾</label></td>
+<td><label><input type="checkbox" value="ガラスのハート" class="missiontype">ガラスのハート</label></td>
+    </tr>
+    <tr>
+<td><label><input type="checkbox" value="パンケーキ" class="missiontype">パンケーキ</label></td>
+<td><label><input type="checkbox" value="テレビ" class="missiontype">テレビ</label></td>
+<td><label><input type="checkbox" value="オークション" class="missiontype">オークション</label></td>
+<td><label><input type="checkbox" value="服" class="missiontype">服</label></td>
+<td><label><input type="checkbox" value="クッキー" class="missiontype">クッキー</label></td>
+<td><label><input type="checkbox" value="木箱" class="missiontype">木箱</label></td>
+<td><label><input type="checkbox" value="ラブレター" class="missiontype">ラブレター</label></td>
+    </tr>
+<td><label><input type="checkbox" value="木箱" class="missiontype">木箱</label></td>
+<td><label><input type="checkbox" value="ポップコーン" class="missiontype">ポップコーン</label></td>
+<td><label><input type="checkbox" value="猫" class="missiontype">猫</label></td>
+<td><label><input type="checkbox" value="紫陽花" class="missiontype">紫陽花</label></td>
 </table>
 
 <h3>ドロップ</h3>
@@ -164,6 +199,10 @@
 <td><label><input type="checkbox" value="ディフューザー" class="drop"> ディフューザー</label></td>
 <td><label><input type="checkbox" value="ジュラルミンケース" class="drop"> ジュラルミンケース</label></td>
 <td><label><input type="checkbox" value="スワッグ" class="drop"> スワッグ</label></td>
+<td><label><input type="checkbox" value="天球儀" class="drop"> 天球儀</label></td>
+<td><label><input type="checkbox" value="外付けHDD" class="drop"> 外付けHDD</label></td>
+</tr>
+<tr>
 <td><label><input type="checkbox" value="のど飴" class="drop"> のど飴</label></td>
 </tr>
 </table>
