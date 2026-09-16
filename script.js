@@ -149,7 +149,7 @@ const stages = [
     element: "SUN",
     piece: ["赤","桃","水","青","黄","緑"],
     gimmick:["SPピース","バーなし"],
-    mission:["靴下４つ"],
+    mission:["靴下４足"],
     missiontype:["サンタ"],
     drop: ["手袋","ヘアコーム"]
 },
@@ -546,7 +546,7 @@ const stages = [
     element: "STAR",
     piece: ["赤","桃","青","黄","緑"],
     gimmick:["SPピース","バーなし"],
-    mission:["靴下12個"],
+    mission:["靴下12足"],
     missiontype:["サンタ"],
     drop: ["使い捨てカイロ","てぶくろ"]
 },
@@ -2484,7 +2484,7 @@ const stages = [
     element: "SUN",
     piece: ["赤","青","黄"],
     gimmick:["バーなし"],
-    mission:["クッキー"],
+    mission:["クッキー2つ"],
     missiontype:["クッキー"],
     drop: ["使い捨てカイロ","てぶくろ"]
 },
@@ -4349,6 +4349,9 @@ const stages = [
     song:"A.C.T",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","雨傘"]
 },
 {
@@ -4358,6 +4361,9 @@ const stages = [
     song:"A.C.T",
     element: "ALL",
     piece: ["赤","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["緑ピース70個"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","雨傘"]
 },
 {
@@ -4367,6 +4373,9 @@ const stages = [
     song:"Assembly",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","靴下"]
 },
 {
@@ -4376,6 +4385,9 @@ const stages = [
     song:"Assembly",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス36枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","靴下"]
 },
 {
@@ -4385,6 +4397,9 @@ const stages = [
     song:"Watchdog",
     element: "SUN",
     piece: ["赤","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","トートバッグ"]
 },
 {
@@ -4394,6 +4409,9 @@ const stages = [
     song:"Watchdog",
     element: "SUN",
     piece: ["赤","桃","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス8枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","トートバッグ"]
 },
 {
@@ -4403,6 +4421,9 @@ const stages = [
     song:"Concrete Mirage",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","エプロン"]
 },
 {
@@ -4412,6 +4433,9 @@ const stages = [
     song:"Concrete Mirage",
     element: "MOON",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["水、青ピース40個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","エプロン"]
 },
 {
@@ -4421,6 +4445,9 @@ const stages = [
     song:"Golden Rings",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ネクタイピン","インスタントカメラ"]
 },
 {
@@ -4430,6 +4457,9 @@ const stages = [
     song:"Golden Rings",
     element: "SUN",
     piece: ["赤","桃","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス4枚"],
+    missiontype:["ガラス"],
     drop: ["ネクタイピン","インスタントカメラ"]
 },
 {
@@ -4439,6 +4469,9 @@ const stages = [
     song:"Seize the day",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","サバイバルナイフ"]
 },
 {
@@ -4448,6 +4481,9 @@ const stages = [
     song:"Seize the day",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["赤ピース110個"],
+    missiontype:["ピース消去"],
     drop: ["ガラスペン","サバイバルナイフ"]
 },
 {
@@ -4457,6 +4493,9 @@ const stages = [
     song:"Ignite",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -4466,6 +4505,9 @@ const stages = [
     song:"Ignite",
     element: "STAR",
     piece: ["赤","桃","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス3枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -4475,6 +4517,9 @@ const stages = [
     song:"watery glow",
     element: "SUN",
     piece: ["赤","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["マグネット","シルクハット"]
 },
 {
@@ -4484,6 +4529,9 @@ const stages = [
     song:"watery glow",
     element: "SUN",
     piece: ["赤","黄"],
+    gimmick:["なし"],
+    mission:["バラ4、藪46"],
+    missiontype:["バラ","藪"],
     drop: ["マグネット","シルクハット"]
 },
 {
@@ -4493,6 +4541,9 @@ const stages = [
     song:"Break the Chain",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラバーバンド","彫刻刀"]
 },
 {
@@ -4502,6 +4553,9 @@ const stages = [
     song:"Break the Chain",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["バーなし","手数制限"],
+    mission:["バラ6輪"],
+    missiontype:["バラ"],
     drop: ["ラバーバンド","彫刻刀"]
 },
 {
@@ -4511,6 +4565,9 @@ const stages = [
     song:"Untethered",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","箸置き（午）"]
 },
 {
@@ -4520,6 +4577,9 @@ const stages = [
     song:"Untethered",
     element: "MOON",
     piece: ["赤","桃","水","青","緑"],
+    gimmick:["バーなし"],
+    mission:["蝶17匹"],
+    missiontype:["蝶"],
     drop: ["ラゲッジタグ","箸置き（午）"]
 },
 {
@@ -4529,6 +4589,9 @@ const stages = [
     song:"OVER DUBBING",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -4538,6 +4601,9 @@ const stages = [
     song:"OVER DUBBING",
     element: "STAR",
     piece: ["赤","桃","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["青ピース80消去"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -4547,6 +4613,9 @@ const stages = [
     song:"眩影",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","鏡"]
 },
 {
@@ -4556,6 +4625,9 @@ const stages = [
     song:"眩影",
     element: "ALL",
     piece: ["赤","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス16枚"],
+    missiontype:["ガラス"],
     drop: ["カクテル","鏡"]
 },
 {
@@ -4565,6 +4637,9 @@ const stages = [
     song:"Code:13-Good morning,I'm fine!-",
     element: "ALL",
     piece: ["赤","黄","緑"],
+    gimmick:["SPピース"],
+    mission:["赤、黄、緑100個"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","工具セット"]
 },
 
@@ -4575,6 +4650,9 @@ const stages = [
     song:"The Catalyst",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","ヘッドホン"]
 },
 {
@@ -4584,6 +4662,9 @@ const stages = [
     song:"The Catalyst",
     element: "ALL",
     piece: ["赤","黄","緑"],
+    gimmick:["なし"],
+    mission:["蝶44匹"],
+    missiontype:["蝶"],
     drop: ["カクテル","ヘッドホン"]
 },
 {
@@ -4593,6 +4674,9 @@ const stages = [
     song:"Pursuit",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ランタン"]
 },
 {
@@ -4602,6 +4686,9 @@ const stages = [
     song:"Pursuit",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["蝶4匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","ランタン"]
 },
 {
@@ -4611,6 +4698,9 @@ const stages = [
     song:"High Context",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","トースター"]
 },
 {
@@ -4620,6 +4710,9 @@ const stages = [
     song:"High Context",
     element: "MOON",
     piece: ["水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["黄ピース90個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","トースター"]
 },
 {
@@ -4629,6 +4722,9 @@ const stages = [
     song:"Complicated",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ヘアバンド"]
 },
 {
@@ -4638,6 +4734,9 @@ const stages = [
     song:"Complicated",
     element: "SUN",
     piece: ["赤","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス48枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","ヘアバンド"]
 },
 {
@@ -4647,6 +4746,9 @@ const stages = [
     song:"Botanical Cascade",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エディブルフラワー","目薬"]
 },
 {
@@ -4656,6 +4758,9 @@ const stages = [
     song:"Botanical Cascade",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["コンボピース10-5-1"],
+    missiontype:["コンボピース"],
     drop: ["エディブルフラワー","目薬"]
 },
 {
@@ -4665,6 +4770,9 @@ const stages = [
     song:"Helix",
     element: "STAR",
     piece: ["赤","桃","黄","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ヘアコーム"]
 },
 {
@@ -4674,6 +4782,9 @@ const stages = [
     song:"Helix",
     element: "STAR",
     piece: ["赤","桃","黄","緑"],
+    gimmick:["重力","バーなし"],
+    mission:["蝶2匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","ヘアコーム"]
 },
 {
@@ -4683,6 +4794,9 @@ const stages = [
     song:"Chelem",
     element: "MOON",
     piece: ["赤","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","目覚まし時計"]
 },
 {
@@ -4692,6 +4806,9 @@ const stages = [
     song:"Chelem",
     element: "MOON",
     piece: ["赤","水","青","緑"],
+    gimmick:["重力"],
+    mission:["鍵6個"],
+    missiontype:["鍵"],
     drop: ["ガラスペン","目覚まし時計"]
 },
 {
@@ -4701,6 +4818,9 @@ const stages = [
     song:"Lisq",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -4710,6 +4830,9 @@ const stages = [
     song:"Lisq",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["重力"],
+    mission:["赤ピース6個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -4719,6 +4842,9 @@ const stages = [
     song:"Unchained",
     element: "MOON",
     piece: ["赤","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ベルト","盃"]
 },
 {
@@ -4728,6 +4854,9 @@ const stages = [
     song:"Unchained",
     element: "MOON",
     piece: ["赤","水","緑"],
+    gimmick:["SPピース"],
+    mission:["ガラス40枚"],
+    missiontype:["ガラス"],
     drop: ["ベルト","盃"]
 },
 {
@@ -4737,6 +4866,9 @@ const stages = [
     song:"Fiesta Santa",
     element: "MOON",
     piece: ["桃","水","青","黄"],
+    gimmick:["SPピース","重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["使い捨てカイロ","てぶくろ"]
 },
 {
@@ -4746,6 +4878,9 @@ const stages = [
     song:"Fiesta Santa",
     element: "MOON",
     piece: ["桃","青","黄"],
+    gimmick:["SPピース"],
+    mission:["クッキー2つ"],
+    missiontype:["なし"],
     drop: ["使い捨てカイロ","てぶくろ"]
 },
 {
@@ -4755,6 +4890,9 @@ const stages = [
     song:"Radiance",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ワックス","タオル"]
 },
 {
@@ -4764,6 +4902,9 @@ const stages = [
     song:"Radiance",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["バーなし"],
+    mission:["藪74、ガラス40"],
+    missiontype:["藪","ガラス"],
     drop: ["ワックス","タオル"]
 },
 {
@@ -4773,6 +4914,9 @@ const stages = [
     song:"Wanderlogue",
     element: "STAR",
     piece: ["赤","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","箸置き（巳）"]
 },
 {
@@ -4782,6 +4926,9 @@ const stages = [
     song:"Wanderlogue",
     element: "STAR",
     piece: ["赤","桃","水","黄","緑"],
+    gimmick:["なし"],
+    mission:["バラ10輪"],
+    missiontype:["バラ"],
     drop: ["ラゲッジタグ","箸置き（巳）"]
 },
 {
@@ -4791,6 +4938,9 @@ const stages = [
     song:"Superposition",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -4800,6 +4950,9 @@ const stages = [
     song:"Superposition",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["黄ピース500個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -4809,6 +4962,9 @@ const stages = [
     song:"Goodbye",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["スワッグ","ハンカチ"]
 },
 {
@@ -4818,6 +4974,9 @@ const stages = [
     song:"Goodbye",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["バーなし"],
+    mission:["紫陽花4-4-4"],
+    missiontype:["紫陽花"],
     drop: ["スワッグ","ハンカチ"]
 },
 {
@@ -4827,6 +4986,9 @@ const stages = [
     song:"Whispers of Fate",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","双眼鏡"]
 },
 {
@@ -4836,6 +4998,9 @@ const stages = [
     song:"Whispers of Fate",
     element: "ALL",
     piece: ["赤","水","緑"],
+    gimmick:["SPピース"],
+    mission:["あるこ1"],
+    missiontype:["あるこ"],
     drop: ["カクテル","双眼鏡"]
 },
 {
@@ -4845,6 +5010,9 @@ const stages = [
     song:"Code:01-melt night-",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["SPピース"],
+    mission:["蝶20匹"],
+    missiontype:["蝶"],
     drop: ["カクテル","風車"]
 },
 
@@ -4855,6 +5023,9 @@ const stages = [
     song:"C1",
     element: "ALL",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","ヘアバンド"]
 },
 {
@@ -4864,6 +5035,9 @@ const stages = [
     song:"C1",
     element: "ALL",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["水ピース150個"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","ヘアバンド"]
 },
 {
@@ -4873,6 +5047,9 @@ const stages = [
     song:"High Context",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","双眼鏡"]
 },
 {
@@ -4882,6 +5059,9 @@ const stages = [
     song:"High Context",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["蝶4匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","双眼鏡"]
 },
 {
@@ -4891,6 +5071,9 @@ const stages = [
     song:"Pursuit",
     element: "MOON",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","工具セット"]
 },
 {
@@ -4900,6 +5083,9 @@ const stages = [
     song:"Pursuit",
     element: "MOON",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["ガラス16枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","工具セット"]
 },
 {
@@ -4909,6 +5095,9 @@ const stages = [
     song:"Complicated",
     element: "STAR",
     piece: ["赤","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","サバイバルナイフ"]
 },
 {
@@ -4918,6 +5107,9 @@ const stages = [
     song:"Complicated",
     element: "STAR",
     piece: ["赤","水","黄"],
+    gimmick:["なし"],
+    mission:["ガラス12枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","サバイバルナイフ"]
 },
 {
@@ -4927,6 +5119,9 @@ const stages = [
     song:"ALICE’S DICE",
     element: "MOON",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["シルクハット","双眼鏡"]
 },
 {
@@ -4936,6 +5131,9 @@ const stages = [
     song:"ALICE’S DICE",
     element: "MOON",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["水、青ピース150個"],
+    missiontype:["なし"],
     drop: ["シルクハット","双眼鏡"]
 },
 {
@@ -4945,6 +5143,9 @@ const stages = [
     song:"Snowy Nights, Glowings Lights",
     element: "STAR",
     piece: ["赤","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["てぶくろ","リップクリーム"]
 },
 {
@@ -4954,6 +5155,9 @@ const stages = [
     song:"Snowy Nights, Glowings Lights",
     element: "STAR",
     piece: ["赤","黄","緑"],
+    gimmick:["なし"],
+    mission:["靴下1足"],
+    missiontype:["サンタ"],
     drop: ["てぶくろ","リップクリーム"]
 },
 {
@@ -4963,6 +5167,9 @@ const stages = [
     song:"Chelem",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","USBメモリ"]
 },
 {
@@ -4972,6 +5179,9 @@ const stages = [
     song:"Chelem",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["SPピース","重力"],
+    mission:["鍵4個"],
+    missiontype:["鍵"],
     drop: ["ガラスペン","USBメモリ"]
 },
 {
@@ -4981,6 +5191,9 @@ const stages = [
     song:"Lisq",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -4990,6 +5203,9 @@ const stages = [
     song:"Lisq",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["SPピース"],
+    mission:["ガラス32枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -4999,6 +5215,9 @@ const stages = [
     song:"Picture at an Exhibition",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["彫刻刀","ボタン"]
 },
 {
@@ -5008,6 +5227,9 @@ const stages = [
     song:"Picture at an Exhibition",
     element: "MOON",
     piece: ["桃","水","黄"],
+    gimmick:["SPピース"],
+    mission:["お札16束"],
+    missiontype:["お札"],
     drop: ["彫刻刀","ボタン"]
 },
 {
@@ -5017,6 +5239,9 @@ const stages = [
     song:"Wanderlogue",
     element: "SUN",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","ネクタイピン"]
 },
 {
@@ -5026,6 +5251,9 @@ const stages = [
     song:"Wanderlogue",
     element: "SUN",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["重力"],
+    mission:["桃、水、緑100"],
+    missiontype:["ピース消去"],
     drop: ["ラゲッジタグ","ネクタイピン"]
 },
 {
@@ -5035,6 +5263,9 @@ const stages = [
     song:"Superposition",
     element: "STAR",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -5044,7 +5275,34 @@ const stages = [
     song:"Superposition",
     element: "STAR",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["ベニヤ板56枚"],
+    missiontype:["ベニヤ板"],
     drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "祠堂恭耶",
+    color:"kyo-yakn",
+    side:"A",
+    song:"Sidereal",
+    element: "MOON",
+    piece: ["桃","水","青","黄"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
+    drop: ["天球儀","マグネット"]
+},
+{
+    chara: "祠堂恭耶",
+    color:"kyo-yakn",
+    side:"B",
+    song:"Sidereal",
+    element: "MOON",
+    piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["黄ボムピース10個"],
+    missiontype:["SPピース消去"],
+    drop: ["天球儀","マグネット"]
 },
 {
     chara: "祠堂恭耶",
@@ -5053,6 +5311,9 @@ const stages = [
     song:"Keep The Rules",
     element: "ALL",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","砂時計"]
 },
 {
@@ -5062,6 +5323,9 @@ const stages = [
     song:"Code:05-Moonlit night-",
     element: "ALL",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["オークション4点"],
+    missiontype:["オークション"],
     drop: ["カクテル","盃"]
 },
 
@@ -5072,6 +5336,9 @@ const stages = [
     song:"Malt&Grain",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","ジョウロ"]
 },
 {
@@ -5081,6 +5348,9 @@ const stages = [
     song:"Malt&Grain",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス58枚"],
+    missiontype:["ガラス"],
     drop: ["カクテル","ジョウロ"]
 },
 {
@@ -5090,6 +5360,9 @@ const stages = [
     song:"Complicated",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","カメラ"]
 },
 {
@@ -5099,6 +5372,9 @@ const stages = [
     song:"Complicated",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス1枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","カメラ"]
 },
 {
@@ -5108,6 +5384,9 @@ const stages = [
     song:"High Context",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","目覚まし時計"]
 },
 {
@@ -5117,6 +5396,9 @@ const stages = [
     song:"High Context",
     element: "STAR",
     piece: ["桃","水","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス2枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","目覚まし時計"]
 },
 {
@@ -5126,6 +5408,9 @@ const stages = [
     song:"Pursuit",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ダンベル"]
 },
 {
@@ -5135,6 +5420,9 @@ const stages = [
     song:"Pursuit",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["ガラス30枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","ダンベル"]
 },
 {
@@ -5144,6 +5432,9 @@ const stages = [
     song:"Sehnsucht",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["盃","ヘアバンド"]
 },
 {
@@ -5153,6 +5444,9 @@ const stages = [
     song:"Sehnsucht",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["桜6輪"],
+    missiontype:["桜"],
     drop: ["盃","ヘアバンド"]
 },
 {
@@ -5162,6 +5456,9 @@ const stages = [
     song:"Snowy Nights, Glowings Lights",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["てぶくろ","インスタントカメラ"]
 },
 {
@@ -5171,6 +5468,9 @@ const stages = [
     song:"Snowy Nights, Glowings Lights",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["重力"],
+    mission:["靴下2足"],
+    missiontype:["サンタ"],
     drop: ["てぶくろ","インスタントカメラ"]
 },
 {
@@ -5180,6 +5480,9 @@ const stages = [
     song:"Climax",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["養生テープ","トースター"]
 },
 {
@@ -5189,6 +5492,9 @@ const stages = [
     song:"Climax",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["SPピース"],
+    mission:["スイッチ4個"],
+    missiontype:["スイッチ"],
     drop: ["養生テープ","トースター"]
 },
 {
@@ -5198,6 +5504,9 @@ const stages = [
     song:"Chelem",
     element: "MOON",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","マグカップ"]
 },
 {
@@ -5207,6 +5516,9 @@ const stages = [
     song:"Chelem",
     element: "MOON",
     piece: ["桃","青"],
+    gimmick:["なし"],
+    mission:["石板8枚"],
+    missiontype:["石板"],
     drop: ["ガラスペン","マグカップ"]
 },
 {
@@ -5216,6 +5528,9 @@ const stages = [
     song:"Lisq",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5225,6 +5540,9 @@ const stages = [
     song:"Lisq",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["重力","バーなし"],
+    mission:["桜12輪"],
+    missiontype:["桜"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5234,6 +5552,9 @@ const stages = [
     song:"cupido",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ハンカチ","ネクタイピン"]
 },
 {
@@ -5243,6 +5564,9 @@ const stages = [
     song:"cupido",
     element: "STAR",
     piece: ["赤","桃","黄","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ハンカチ","ネクタイピン"]
 },
 {
@@ -5252,6 +5576,9 @@ const stages = [
     song:"Wanderlogue",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","ボタン"]
 },
 {
@@ -5261,6 +5588,9 @@ const stages = [
     song:"Wanderlogue",
     element: "SUN",
     piece: ["赤","桃","青","黄"],
+    gimmick:["バーなし"],
+    mission:["赤ピース100個"],
+    missiontype:["ピース消去"],
     drop: ["ラゲッジタグ","ボタン"]
 },
 {
@@ -5270,6 +5600,9 @@ const stages = [
     song:"Superposition",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -5279,6 +5612,9 @@ const stages = [
     song:"Superposition",
     element: "STAR",
     piece: ["赤","桃","青","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -5288,7 +5624,22 @@ const stages = [
     song:"Silhouette",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","インスタントカメラ"]
+},
+{
+    chara:"立科吏来",
+    color:"riksn",
+    side:"B",
+    song:"Silhouette",
+    element:"ALL",
+    piece:["赤","桃","青","黄"],
+    gimmick:["なし"],
+    mission:["赤木箱16"],
+    missiontype:["木箱"],
+    drop:["カクテル","インスタントカメラ"]
 },
 {
     chara: "立科吏来",
@@ -5297,6 +5648,9 @@ const stages = [
     song:"Code:08-Gentle Conquest-",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ビリヤード4"],
+    missiontype:["ビリヤード"],
     drop: ["カクテル","ボタン"]
 },
 
@@ -5307,6 +5661,9 @@ const stages = [
     song:"dispatch",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","鏡"]
 },
 {
@@ -5316,6 +5673,9 @@ const stages = [
     song:"dispatch",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス64枚"],
+    missiontype:["ガラス"],
     drop: ["カクテル","鏡"]
 },
 {
@@ -5325,6 +5685,9 @@ const stages = [
     song:"Contractor",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","サバイバルナイフ"]
 },
 {
@@ -5334,6 +5697,9 @@ const stages = [
     song:"Contractor",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス4枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","サバイバルナイフ"]
 },
 {
@@ -5343,6 +5709,9 @@ const stages = [
     song:"last dance",
     element: "SUN",
     piece: ["赤","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","サングラス"]
 },
 {
@@ -5352,6 +5721,9 @@ const stages = [
     song:"last dance",
     element: "SUN",
     piece: ["赤","水","緑"],
+    gimmick:["なし"],
+    mission:["蝶6匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","サングラス"]
 },
 {
@@ -5361,6 +5733,9 @@ const stages = [
     song:"alley",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","タンブラー"]
 },
 {
@@ -5370,6 +5745,9 @@ const stages = [
     song:"alley",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["コンボピース0-0-3"],
+    missiontype:["コンボピース"],
     drop: ["エッセンス","タンブラー"]
 },
 {
@@ -5379,6 +5757,9 @@ const stages = [
     song:"Botanical Cascade",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エディブルフラワー","トースター"]
 },
 {
@@ -5388,6 +5769,9 @@ const stages = [
     song:"Botanical Cascade",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["緑ピース130個"],
+    missiontype:["ピース消去"],
     drop: ["エディブルフラワー","トースター"]
 },
 {
@@ -5397,6 +5781,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","目覚まし時計"]
 },
 {
@@ -5406,6 +5793,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["ほうき15回"],
+    missiontype:["ほうき"],
     drop: ["ガラスペン","目覚まし時計"]
 },
 {
@@ -5415,6 +5805,9 @@ const stages = [
     song:"Resurrect",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["キャンドル","モバイルバッテリー"]
 },
 {
@@ -5424,6 +5817,9 @@ const stages = [
     song:"Resurrect",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["コンボピース10-5-1"],
+    missiontype:["コンボピース"],
     drop: ["キャンドル","モバイルバッテリー"]
 },
 {
@@ -5433,6 +5829,9 @@ const stages = [
     song:"To Be Continued",
     element: "STAR",
     piece: ["赤","桃","黄","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","乾電池"]
 },
 {
@@ -5442,6 +5841,9 @@ const stages = [
     song:"To Be Continued",
     element: "STAR",
     piece: ["桃","水","青","黄","緑"],
+    gimmick:["重力","バーなし"],
+    mission:["バラ4輪"],
+    missiontype:["バラ"],
     drop: ["エッセンス","乾電池"]
 },
 {
@@ -5451,6 +5853,9 @@ const stages = [
     song:"BRE-MY灼熱RAVE!",
     element: "SUN",
     piece: ["赤","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["タオル","ヘアバンド"]
 },
 {
@@ -5460,6 +5865,9 @@ const stages = [
     song:"BRE-MY灼熱RAVE!",
     element: "SUN",
     piece: ["赤","黄"],
+    gimmick:["バーなし"],
+    mission:["ボール、ガラス24"],
+    missiontype:["ビーチボール","ガラス"],
     drop: ["タオル","ヘアバンド"]
 },
 {
@@ -5469,6 +5877,9 @@ const stages = [
     song:"REDLINE",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5478,6 +5889,9 @@ const stages = [
     song:"REDLINE",
     element: "STAR",
     piece: ["赤","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["緑ピース81個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5487,6 +5901,9 @@ const stages = [
     song:"cupido",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ハンカチ","ネクタイピン"]
 },
 {
@@ -5496,6 +5913,9 @@ const stages = [
     song:"cupido",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["石板8枚"],
+    missiontype:["石板"],
     drop: ["ハンカチ","ネクタイピン"]
 },
 {
@@ -5505,6 +5925,9 @@ const stages = [
     song:"Unchained",
     element: "SUN",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ベルト","盃"]
 },
 {
@@ -5514,6 +5937,9 @@ const stages = [
     song:"Unchained",
     element: "SUN",
     piece: ["桃","青","緑"],
+    gimmick:["SPピース","バーなし"],
+    mission:["ブロック32個"],
+    missiontype:["ブロック"],
     drop: ["ベルト","盃"]
 },
 {
@@ -5523,6 +5949,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["桃","水","緑"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","タオル"]
 },
 {
@@ -5532,6 +5961,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["バーなし","手数制限"],
+    mission:["桜1輪"],
+    missiontype:["桜"],
     drop: ["ラゲッジタグ","タオル"]
 },
 {
@@ -5541,6 +5973,9 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -5550,7 +5985,34 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["緑ピース200個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "恩田灯世",
+    color:"tms",
+    side:"A",
+    song:"Fn+Ctrl+U",
+    element: "SUN",
+    piece: ["赤","桃","青","緑"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
+    drop: ["外付けHDD","USBメモリ"]
+},
+{
+    chara: "恩田灯世",
+    color:"tms",
+    side:"B",
+    song:"Fn+Ctrl+U",
+    element: "SUN",
+    piece: ["赤","桃","水","青","緑"],
+    gimmick:["なし"],
+    mission:["緑ピース140個"],
+    missiontype:["ピース消去"],
+    drop: ["外付けHDD","USBメモリ"]
 },
 {
     chara: "恩田灯世",
@@ -5559,6 +6021,9 @@ const stages = [
     song:"硝煙",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","エプロン"]
 },
 {
@@ -5568,6 +6033,9 @@ const stages = [
     song:"硝煙",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス52枚"],
+    missiontype:["ガラス"],
     drop: ["カクテル","エプロン"]
 },
 {
@@ -5577,6 +6045,9 @@ const stages = [
     song:"Code:21-We gonna be...-",
     element: "ALL",
     piece: ["水","青","緑"],
+    gimmick:["なし"],
+    mission:["水90、緑30"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","養生テープ"]
 },
 
@@ -5587,6 +6058,9 @@ const stages = [
     song:"Rain",
     element: "ALL",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","ブロックメモ"]
 },
 {
@@ -5596,6 +6070,9 @@ const stages = [
     song:"Rain",
     element: "ALL",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["桃ピース80個"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","ブロックメモ"]
 },
 {
@@ -5605,6 +6082,9 @@ const stages = [
     song:"alley",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","エプロン"]
 },
 {
@@ -5614,6 +6094,9 @@ const stages = [
     song:"alley",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["スイッチ10個"],
+    missiontype:["スイッチ"],
     drop: ["エッセンス","エプロン"]
 },
 {
@@ -5623,6 +6106,9 @@ const stages = [
     song:"last dance",
     element: "STAR",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","モバイルバッテリー"]
 },
 {
@@ -5632,6 +6118,9 @@ const stages = [
     song:"last dance",
     element: "STAR",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["蝶12匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","モバイルバッテリー"]
 },
 {
@@ -5641,6 +6130,9 @@ const stages = [
     song:"Contractor",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","リップクリーム"]
 },
 {
@@ -5650,6 +6142,9 @@ const stages = [
     song:"Contractor",
     element: "MOON",
     piece: ["桃","水","青","緑"],
+    gimmick:["なし"],
+    mission:["スイッチ4個"],
+    missiontype:["スイッチ"],
     drop: ["エッセンス","リップクリーム"]
 },
 {
@@ -5659,6 +6154,9 @@ const stages = [
     song:"Echoes",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["風車","サングラス"]
 },
 {
@@ -5668,6 +6166,9 @@ const stages = [
     song:"Echoes",
     element: "MOON",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["ガラス27枚"],
+    missiontype:["ガラス"],
     drop: ["風車","サングラス"]
 },
 {
@@ -5677,6 +6178,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","ランタン"]
 },
 {
@@ -5686,6 +6190,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["赤","桃"],
+    gimmick:["なし"],
+    mission:["ベニヤ板64枚"],
+    missiontype:["ベニヤ板"],
     drop: ["ガラスペン","ランタン"]
 },
 {
@@ -5695,6 +6202,9 @@ const stages = [
     song:"Star Boogie",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["栓抜き","砂時計"]
 },
 {
@@ -5704,6 +6214,9 @@ const stages = [
     song:"Star Boogie",
     element: "STAR",
     piece: ["青","緑"],
+    gimmick:["なし"],
+    mission:["ブロック2個"],
+    missiontype:["ブロック"],
     drop: ["栓抜き","砂時計"]
 },
 {
@@ -5713,6 +6226,9 @@ const stages = [
     song:"REDLINE",
     element: "SUN",
     piece: ["桃","水","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5722,6 +6238,9 @@ const stages = [
     song:"REDLINE",
     element: "SUN",
     piece: ["赤","桃","水","緑"],
+    gimmick:["重力","バーなし"],
+    mission:["蝶2匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5731,6 +6250,9 @@ const stages = [
     song:"watery glow",
     element: "MOON",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["マグネット","シルクハット"]
 },
 {
@@ -5740,6 +6262,9 @@ const stages = [
     song:"watery glow",
     element: "MOON",
     piece: ["赤","桃","水","黄"],
+    gimmick:["バーなし"],
+    mission:["蝶1匹"],
+    missiontype:["蝶"],
     drop: ["マグネット","シルクハット"]
 },
 {
@@ -5749,6 +6274,9 @@ const stages = [
     song:"SKYLINE",
     element: "MOON",
     piece: ["桃","水","青","緑"],
+    gimmick:["SPピース","バーなし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["彫刻刀","おまもり"]
 },
 {
@@ -5758,6 +6286,9 @@ const stages = [
     song:"SKYLINE",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["SPピース","重力","バーなし","手数制限"],
+    mission:["水ピース999個"],
+    missiontype:["ピース消去"],
     drop: ["彫刻刀","おまもり"]
 },
 {
@@ -5767,6 +6298,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","てぶくろ"]
 },
 {
@@ -5776,6 +6310,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["赤青緑ガラス24"],
+    missiontype:["色ガラス"],
     drop: ["ラゲッジタグ","てぶくろ"]
 },
 {
@@ -5785,6 +6322,9 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -5794,6 +6334,9 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["桃","水","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -5803,6 +6346,9 @@ const stages = [
     song:"payback",
     element: "SUN",
     piece: ["桃","水","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ジュラルミンケース","薪"]
 },
 {
@@ -5812,7 +6358,34 @@ const stages = [
     song:"payback",
     element: "SUN",
     piece: ["桃","緑"],
+    gimmick:["SPピース","バーなし"],
+    mission:["蝶16匹"],
+    missiontype:["蝶"],
     drop: ["ジュラルミンケース","薪"]
+},
+{
+    chara: "新名有",
+    color:"nnyu",
+    side:"A",
+    song:"Wrapped in Drops",
+    element: "SUN",
+    piece: ["桃","水","緑"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
+    drop: ["のど飴","ラバーバンド"]
+},
+{
+    chara: "新名有",
+    color:"nnyu",
+    side:"B",
+    song:"Wrapped in Drops",
+    element: "SUN",
+    piece: ["桃","緑"],
+    gimmick:["なし"],
+    mission:["蝶8匹"],
+    missiontype:["蝶"],
+    drop: ["のど飴","ラバーバンド"]
 },
 {
     chara: "新名有",
@@ -5821,6 +6394,9 @@ const stages = [
     song:"青に染まる",
     element: "ALL",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","USBメモリ"]
 },
 {
@@ -5830,6 +6406,9 @@ const stages = [
     song:"Code:20-Until that day-",
     element: "ALL",
     piece: ["赤","桃","水","緑"],
+    gimmick:["SPピース","重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","ダンベル"]
 },
 
@@ -5840,6 +6419,9 @@ const stages = [
     song:"trival matter",
     element: "ALL",
     piece: ["赤","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","アイロン"]
 },
 {
@@ -5849,6 +6431,9 @@ const stages = [
     song:"trival matter",
     element: "ALL",
     piece: ["赤","水","青","黄"],
+    gimmick:["なし"],
+    mission:["水ピース60個"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","アイロン"]
 },
 {
@@ -5858,6 +6443,9 @@ const stages = [
     song:"last dance",
     element: "MOON",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","USBメモリ"]
 },
 {
@@ -5867,6 +6455,9 @@ const stages = [
     song:"last dance",
     element: "MOON",
     piece: ["桃","水","青","黄"],
+    gimmick:["なし"],
+    mission:["蝶24匹"],
+    missiontype:["蝶"],
     drop: ["エッセンス","USBメモリ"]
 },
 {
@@ -5876,6 +6467,9 @@ const stages = [
     song:"Contractor",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","乾電池"]
 },
 {
@@ -5885,6 +6479,9 @@ const stages = [
     song:"Contractor",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["ガラス48枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","乾電池"]
 },
 {
@@ -5894,6 +6491,9 @@ const stages = [
     song:"alley",
     element: "STAR",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","インスタントカメラ"]
 },
 {
@@ -5903,6 +6503,9 @@ const stages = [
     song:"alley",
     element: "STAR",
     piece: ["桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["黄ピース50個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","インスタントカメラ"]
 },
 {
@@ -5912,6 +6515,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","マグカップ"]
 },
 {
@@ -5921,6 +6527,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["赤","桃","青"],
+    gimmick:["なし"],
+    mission:["ドーナツ50個"],
+    missiontype:["ドーナツ"],
     drop: ["ガラスペン","マグカップ"]
 },
 {
@@ -5930,6 +6539,9 @@ const stages = [
     song:"Climax",
     element: "MOON",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["養生テープ","目薬"]
 },
 {
@@ -5939,6 +6551,9 @@ const stages = [
     song:"Climax",
     element: "MOON",
     piece: ["桃","青","黄"],
+    gimmick:["SPピース"],
+    mission:["ガラス24枚"],
+    missiontype:["ガラス"],
     drop: ["養生テープ","目薬"]
 },
 {
@@ -5948,6 +6563,9 @@ const stages = [
     song:"REDLINE",
     element: "MOON",
     piece: ["桃","青","黄"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5957,6 +6575,9 @@ const stages = [
     song:"REDLINE",
     element: "MOON",
     piece: ["桃","水","青","黄"],
+    gimmick:["なし"],
+    mission:["ベニヤ板1枚"],
+    missiontype:["ベニヤ板"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -5966,6 +6587,9 @@ const stages = [
     song:"Chill Still Thrill",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラバーバンド","風車"]
 },
 {
@@ -5975,6 +6599,9 @@ const stages = [
     song:"Chill Still Thrill",
     element: "SUN",
     piece: ["桃","水","黄"],
+    gimmick:["SPピース","バーなし"],
+    mission:["石板16枚"],
+    missiontype:["石板"],
     drop: ["ラバーバンド","風車"]
 },
 {
@@ -5984,6 +6611,9 @@ const stages = [
     song:"SKYLINE",
     element: "STAR",
     piece: ["桃","青","黄","緑"],
+    gimmick:["SPピース","バーなし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["おまもり","マグネット"]
 },
 {
@@ -5993,6 +6623,9 @@ const stages = [
     song:"SKYLINE",
     element: "STAR",
     piece: ["赤","桃","青","黄","黄"],
+    gimmick:["バーなし","手数制限"],
+    mission:["石板24枚"],
+    missiontype:["石板"],
     drop: ["おまもり","マグネット"]
 },
 {
@@ -6002,6 +6635,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","水","黄"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","ネクタイピン"]
 },
 {
@@ -6011,6 +6647,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","水","黄"],
+    gimmick:["SPピース"],
+    mission:["黄ボム6個"],
+    missiontype:["SPピース消去"],
     drop: ["ラゲッジタグ","ネクタイピン"]
 },
 {
@@ -6020,6 +6659,9 @@ const stages = [
     song:"Love Letter",
     element: "MOON",
     piece: ["赤","桃","青"],
+    gimmick:["重力"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ホイッパー","れんげ"]
 },
 {
@@ -6029,6 +6671,9 @@ const stages = [
     song:"Love Letter",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ラブレター30通"],
+    missiontype:["ラブレター"],
     drop: ["ホイッパー","れんげ"]
 },
 {
@@ -6038,6 +6683,9 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["桃","水","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -6047,6 +6695,9 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["緑ガラス30枚"],
+    missiontype:["色ガラス"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -6056,6 +6707,9 @@ const stages = [
     song:"Goodbye",
     element: "STAR",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["スワッグ","ハンカチ"]
 },
 {
@@ -6065,6 +6719,9 @@ const stages = [
     song:"Goodbye",
     element: "STAR",
     piece: ["青","黄"],
+    gimmick:["なし"],
+    mission:["紫陽花0-18-0"],
+    missiontype:["紫陽花"],
     drop: ["スワッグ","ハンカチ"]
 },
 {
@@ -6074,6 +6731,9 @@ const stages = [
     song:"Dazzling Dancer",
     element: "ALL",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","懐中電灯"]
 },
 {
@@ -6083,6 +6743,9 @@ const stages = [
     song:"Code:16-Mourn pain-",
     element: "ALL",
     piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["ドーナツ7個"],
+    missiontype:["紫陽花"],
     drop: ["カクテル","箸置き（巳）"]
 },
 
@@ -6093,6 +6756,9 @@ const stages = [
     song:"SPITFIRE",
     element: "ALL",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","双眼鏡"]
 },
 {
@@ -6102,6 +6768,9 @@ const stages = [
     song:"SPITFIRE",
     element: "ALL",
     piece: ["赤","青"],
+    gimmick:["なし"],
+    mission:["青ピース400個"],
+    missiontype:["ピース消去"],
     drop: ["カクテル","双眼鏡"]
 },
 {
@@ -6111,6 +6780,9 @@ const stages = [
     song:"Contractor",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","懐中電灯"]
 },
 {
@@ -6120,6 +6792,9 @@ const stages = [
     song:"Contractor",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス52枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","懐中電灯"]
 },
 {
@@ -6129,6 +6804,9 @@ const stages = [
     song:"alley",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ヘアコーム"]
 },
 {
@@ -6138,6 +6816,9 @@ const stages = [
     song:"alley",
     element: "SUN",
     piece: ["赤","桃","水","青"],
+    gimmick:["なし"],
+    mission:["赤80、青160"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ヘアコーム"]
 },
 {
@@ -6147,6 +6828,9 @@ const stages = [
     song:"last dance",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ヘッドホン"]
 },
 {
@@ -6156,6 +6840,9 @@ const stages = [
     song:"last dance",
     element: "STAR",
     piece: ["赤","桃","青","緑"],
+    gimmick:["なし"],
+    mission:["ガラス16枚"],
+    missiontype:["ガラス"],
     drop: ["エッセンス","ヘッドホン"]
 },
 {
@@ -6165,6 +6852,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ガラスペン","トートバッグ"]
 },
 {
@@ -6174,6 +6864,9 @@ const stages = [
     song:"WIPE OUT",
     element: "SUN",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["黄もやピース16個"],
+    missiontype:["もやもや"],
     drop: ["ガラスペン","トートバッグ"]
 },
 {
@@ -6183,6 +6876,9 @@ const stages = [
     song:"REDLINE",
     element: "MOON",
     piece: ["桃","水","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -6192,6 +6888,9 @@ const stages = [
     song:"REDLINE",
     element: "MOON",
     piece: ["水","青"],
+    gimmick:["なし"],
+    mission:["石板28枚"],
+    missiontype:["石板"],
     drop: ["エッセンス","ガラスペン"]
 },
 {
@@ -6201,6 +6900,9 @@ const stages = [
     song:"Brisa de Noche",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["薪","エディブルフラワー"]
 },
 {
@@ -6210,6 +6912,9 @@ const stages = [
     song:"Brisa de Noche",
     element: "STAR",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["水100個"],
+    missiontype:["水"],
     drop: ["薪","エディブルフラワー"]
 },
 {
@@ -6219,6 +6924,9 @@ const stages = [
     song:"Chill Still Thrill",
     element: "MOON",
     piece: ["赤","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラバーバンド","風車"]
 },
 {
@@ -6228,6 +6936,9 @@ const stages = [
     song:"Chill Still Thrill",
     element: "MOON",
     piece: ["桃","水","青","緑"],
+    gimmick:["重力"],
+    mission:["ガラス52枚"],
+    missiontype:["ガラス"],
     drop: ["ラバーバンド","風車"]
 },
 {
@@ -6237,6 +6948,9 @@ const stages = [
     song:"Unchained",
     element: "STAR",
     piece: ["桃","青","黄"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ベルト","盃"]
 },
 {
@@ -6246,6 +6960,9 @@ const stages = [
     song:"Unchained",
     element: "STAR",
     piece: ["桃","青","黄"],
+    gimmick:["SPピース"],
+    mission:["蝶34匹"],
+    missiontype:["蝶"],
     drop: ["ベルト","盃"]
 },
 {
@@ -6255,6 +6972,9 @@ const stages = [
     song:"SKYLINE",
     element: "SUN",
     piece: ["赤","桃","青","緑"],
+    gimmick:["SPピース","バーなし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["おまもり","マグネット"]
 },
 {
@@ -6264,6 +6984,9 @@ const stages = [
     song:"SKYLINE",
     element: "SUN",
     piece: ["桃","青","緑"],
+    gimmick:["バーなし","手数制限"],
+    mission:["テレビを青に"],
+    missiontype:["テレビ"],
     drop: ["おまもり","マグネット"]
 },
 {
@@ -6273,6 +6996,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","水","緑"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ラゲッジタグ","キャンドル"]
 },
 {
@@ -6282,6 +7008,9 @@ const stages = [
     song:"Carousel",
     element: "STAR",
     piece: ["赤","緑"],
+    gimmick:["なし"],
+    mission:["緑ガラス48枚"],
+    missiontype:["色ガラス"],
     drop: ["ラゲッジタグ","キャンドル"]
 },
 {
@@ -6291,6 +7020,9 @@ const stages = [
     song:"Pajama wonderland",
     element: "SUN",
     piece: ["桃","青","緑"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["ディフューザー","栓抜き"]
 },
 {
@@ -6300,6 +7032,9 @@ const stages = [
     song:"Pajama wonderland",
     element: "SUN",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["桜21輪"],
+    missiontype:["桜"],
     drop: ["ディフューザー","栓抜き"]
 },
 {
@@ -6309,6 +7044,9 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
 {
@@ -6318,7 +7056,34 @@ const stages = [
     song:"Mirrored Mirror",
     element: "MOON",
     piece: ["桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["緑ピース250個"],
+    missiontype:["ピース消去"],
     drop: ["エッセンス","ラゲッジタグ"]
+},
+{
+    chara: "麻波麗",
+    color:"ur-r",
+    side:"A",
+    song:"Fn+Ctrl+U",
+    element: "STAR",
+    piece: ["桃","青","黄","緑"],
+    gimmick:["SPピース"],
+    mission:["なし"],
+    missiontype:["なし"],
+    drop: ["外付けHDD","USBメモリ"]
+},
+{
+    chara: "麻波麗",
+    color:"ur-r",
+    side:"B",
+    song:"Fn+Ctrl+U",
+    element: "STAR",
+    piece: ["赤","桃","水","青","黄","緑"],
+    gimmick:["なし"],
+    mission:["蝶8匹"],
+    missiontype:["蝶"],
+    drop: ["外付けHDD","USBメモリ"]
 },
 {
     chara: "麻波麗",
@@ -6327,6 +7092,9 @@ const stages = [
     song:"レイド",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["なし"],
+    missiontype:["なし"],
     drop: ["カクテル","サバイバルナイフ"]
 },
 {
@@ -6336,6 +7104,9 @@ const stages = [
     song:"Code:15-形ないもの-",
     element: "ALL",
     piece: ["桃","青","緑"],
+    gimmick:["なし"],
+    mission:["蝶28匹"],
+    missiontype:["蝶"],
     drop: ["カクテル","目覚まし時計"]
 },
 
