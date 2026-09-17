@@ -568,7 +568,7 @@ const stages = [
     element: "SUN",
     piece: ["桃","水","黄"],
     gimmick:["バーなし"],
-    mission:["ベニヤ板"],
+    mission:["ベニヤ板36枚"],
     missiontype:["ベニヤ板"],
     drop: ["エッセンス","ラゲッジタグ"]
 },
@@ -612,7 +612,7 @@ const stages = [
     element: "ALL",
     piece: ["桃","緑"],
     gimmick:["重力"],
-    mission:["ベニヤ板"],
+    mission:["ベニヤ板40枚"],
     missiontype:["ベニヤ板"],
     drop: ["カクテル","アイロン"]
 },
@@ -4879,7 +4879,7 @@ const stages = [
     piece: ["桃","青","黄"],
     gimmick:["SPピース"],
     mission:["クッキー2つ"],
-    missiontype:["なし"],
+    missiontype:["クッキー"],
     drop: ["使い捨てカイロ","てぶくろ"]
 },
 {
@@ -5132,7 +5132,7 @@ const stages = [
     piece: ["赤","桃","水","青","黄","緑"],
     gimmick:["なし"],
     mission:["水、青ピース150個"],
-    missiontype:["なし"],
+    missiontype:["ピース消去"],
     drop: ["シルクハット","双眼鏡"]
 },
 {

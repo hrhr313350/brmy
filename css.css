@@ -37,6 +37,19 @@ drop-table label{
     display:inline-black;
     cursor:pointer;
 }
+.pazzle-stage{
+    margin:auto;
+}
+.footer-back{
+    background-color:rgb(168, 125, 255);
+    max-width: 1200px;
+    width:100%;
+    margin:0 auto;
+    padding:auto;
+}
+.update{
+    color:white;
+}
 
 .name{
     position:relative;
